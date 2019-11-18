@@ -18,7 +18,7 @@ def postCodeVal(post_code):
         valid = "Postal Code Entry Successful " + post_code_formatted
         return valid
     else:
-        print(post_code + " Is not a valid UK Postal CodeDADA")
+        print(post_code + " Is not a valid UK Postal Code")
         invalid = post_code + " Is not a valid UK Postal Code"
         return invalid
     
